@@ -1,0 +1,8 @@
+$--header: (
+  "padding": 0 0,
+  "height": 60px,
+);
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $header: $--header
+);
